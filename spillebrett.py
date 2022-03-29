@@ -26,7 +26,7 @@ class Spillebrett:
     ## outputs playboard
     #
     def tegnBrett(self):
-        for i in range(10):
+        for _ in range(10):
             print("")
         for row in self._rutenett:
             print("")
